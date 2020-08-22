@@ -286,6 +286,11 @@ p {
       font-style: italic;
   }
 
+  @media (max-width: 28.75em){
+      .contact-section-header > h2{
+          font-size: 4rem;
+      }
+  }
   .contact-links {
     display: flex;
     justify-content: center;
@@ -305,4 +310,31 @@ p {
 
   .contact-details:hover{
       transform:translateY(8px);
+  }
+
+  @media (max-width: 28.75em){
+      .contact-details{
+          margin-bottom: 2.5rem;
+      }
+  }
+  .or{
+      margin: 2rem 0 2rem 0;
+  }
+
+  /*Footer*/
+  footer{
+      height: 7rem;
+      justify-content: center;
+      background-color: var(--main-gray);
+      display: flex;
+      flex-direction:column;
+      font-weight: 300;
+      border-top: 5px solid var(--main-red);
+      
+  }
+
+  footer p{
+      color: var(--main-white);
+      margin-left: 1rem;
+      font-size: 1.5rem;
   }
